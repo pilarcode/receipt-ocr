@@ -1,1 +1,0 @@
-{"GST Summary Item Amount (MYR) GST (MYR) ": 0, "SR @ 6% 1 ": "1.20", "Item Name Qty Unit Price Amount ": 0, "AIR ADAPTOR @ 1 5 ": "20.00", "Invoice No. : CR 1803/0064 ": 0, "Date : 01-03-18 5:23:26 PM ": 0, "Cashier No. : khoo ": 0, "Counter No. : cl ": 0, "Printed Date : 01-03-18 5:23:30 PM ": 0}

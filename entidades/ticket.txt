@@ -1,1 +1,0 @@
-{"PERSON": ["SHAKE SHACK", "Lisa", "WALTER", "NGJJ58"], "COMMERCIAL_ITEM": ["3790"], "LOCATION": ["Las Vegas Blvd South"], "DATE": ["12/02/2018", "11:44 AM"], "OTHER": ["166", "60042", "http://bit.ly/shack-survey-1130"], "ORGANIZATION": ["DBL", "ShackBurger", "MasterCard"], "QUANTITY": ["8.69\nBacon", "4.89", "5.49\nVanilla", "19.07\nTax", "1.57", "20.64", "20.64", "$5", "$20"]}

@@ -1,26 +1,27 @@
+import src
 from flask import Flask, jsonify,request
-from utilsFile import *
-from receiptFeature import *
+from src.utilsFile import saveImageBase64,deleteTemporalFiles
+from src.receiptFeature import ReceiptFeature
 
-app = Flask(__name__,static_folder='tmp')
+app = Flask(__name__)
+
+@app.route('/',methods=['GET'])
+def main():
+	message ="Service is UP!"
+	return jsonify(message),200
+
 
 @app.route('/extractFeatures',methods=['POST'])
-def base64upload():
-	#Modelo de entrada del servicio rest
+def extractFeatures():
 	params = request.get_json()
 	image = params['image']
 	filename = params['filename']
-	path = "tmp/"+filename
+	saveImageBase64(image,"src/tmp/"+filename)
 
-	#Guardar imagen directorio temporal
-	saveImageBase64(image,path)
-
-	#Extraer las features
-	extractor = ReceiptFeature()	
-	features = extractor.processTmpFile("tmp",filename)
+	receiptFeature = ReceiptFeature()	
+	features = receiptFeature.getFeatures(filename)
     
-	#Borrar la imagen del directorio temporal
-	#deleteImage(path)	
+	deleteTemporalFiles(filename)
 	return jsonify(features),200
 
 

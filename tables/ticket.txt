@@ -1,1 +1,0 @@
-{"DBL ShackBurger ": "8.69", "Bacon Cheese Fries ": "4.89", "Shake Vanilla Shake ": "5.49"}

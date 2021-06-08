@@ -1,1 +1,0 @@
-{"Qty Menu Item Amount ": 0, "2 FRENCH FRIES ": "190.00", "1 OPEN FOOD ": "60.00", "MANESH SAUS ": "60.00", "1 PANEER TIKKA ": "248.00"}

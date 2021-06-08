@@ -1,1 +1,0 @@
-{"ORGANIZATION": ["El Meson Mexican Restaurant", "IGOR"], "LOCATION": ["794 South Perry St Unit EF\nCASTLE ROCK, CO"], "OTHER": ["80104", "(720) 733-9705", "33", "18533", "A1", "2", "1"], "QUANTITY": ["SOPA DE TORTILA", "5.50", "1 TACO SALAD", "9.50\nCHKN", "1 HOUSE", "12.50", "1 Dr Pepper", "2.65", "1 SIDE", "1.55", "1 HOUSE", "12.50", "44.20", "3.50", "$47.70"]}
