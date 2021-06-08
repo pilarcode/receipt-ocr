@@ -1,0 +1,29 @@
+El Meson Mexican Restaurant
+794 South Perry St Unit EF
+CASTLE ROCK, CO 80104
+(720) 733-9705
+Server: IGOR
+Station: 33
+Order #: 18533
+Dine In
+Table: A1
+Guests: 2
+1 SOPA DE TORTILA BOWL
+5.50
+1 TACO SALAD
+9.50
+CHKN
+1 HOUSE MARGARITA JUMBO
+12.50
+1 Dr Pepper
+2.65
+1 SIDE CHEESE
+1.55
+1 HOUSE MARGARITA JUMBO
+12.50
+SUB TOTAL:
+44.20
+Tax 1:
+3.50
+TOTAL:
+$47.70

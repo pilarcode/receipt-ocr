@@ -1,0 +1,1 @@
+{"LOCATION": ["375 North", "Drive\nE. BALDI\nBeverly Hills, CA 90210"], "ORGANIZATION": ["Canon"], "DATE": ["TUE JANUARY 30,2018", "14:22"], "OTHER": ["#278470-1", "#6\n1"], "QUANTITY": ["$4.50", "1 ROMBO", "$48.00", "1 SPARKLING WATER", "$8.50", "1 BRANZINO GRIGLIATO", "$40.00", "1 CARPACCIO", "$33.00", "$134.00", "$134.00", "$12.73", "$146.73", "2 CUSTOMERS"]}

@@ -1,0 +1,1 @@
+{"Hamachi Collar ": "12.00", "Mega Poke Bowl ": "17.00", "Hamachi - Sashimi ": "12.00", "Maguro - Sashimi ": "11.00", "Salmon - Sashimi ": "10.00", "3 Sockeye Salmon - Sashimi ": "36.00", "Hamachi Japapeno ": "12.00", "Salmon Collar ": "10.00", "Escolar - Sashimi ": "11.00"}
