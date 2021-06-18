@@ -4,13 +4,13 @@ from src.trplib import Document
 from src.utilsPrice import formatPrice,isPrice
 
 # Explicit Client Configuration
-session = boto3.Session(profile_name='pilar_dev')
+#session = boto3.Session(profile_name='pilar_dev')
 
 def detectDocumentText(imageFile):
     imageBytes = readImage(imageFile)
 
     # Amazon Textract client
-    textract = boto3.client('textract')
+    textract = boto3.client('textract',region_name = 'us-east-1')
 
     # Call Amazon Textract
     response = textract.detect_document_text(Document={'Bytes': imageBytes})
@@ -23,7 +23,7 @@ def detectDocumentText(imageFile):
 
 def detectEntitiesFromText(text):
     # Amazon Comprehend client
-    comprehend = boto3.client('comprehend')
+    comprehend = boto3.client('comprehend',region_name = 'us-east-1')
 
      # Call Amazon Textract
     response =  comprehend.detect_entities(LanguageCode="en", Text=text)
@@ -44,7 +44,7 @@ def detectDocumentTable(imageFile):
     imageBytes = readImage(imageFile)
 
     # Amazon Textract client
-    textract = boto3.client('textract')
+    textract = boto3.client('textract',region_name = 'us-east-1')
 
     # Call Amazon Textract
     response = textract.analyze_document(Document={'Bytes': imageBytes},FeatureTypes=['TABLES'])
