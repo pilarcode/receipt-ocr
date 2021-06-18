@@ -1,17 +1,17 @@
-import src
+from src import *
 from flask import Flask, jsonify,request
 from src.utilsFile import saveImageBase64,deleteTemporalFiles
 from src.receiptFeature import ReceiptFeature
 
-app = Flask(__name__)
 
-@app.route('/',methods=['GET'])
+application =  Flask(__name__)
+
+
+@application.route('/',methods=['GET'])
 def main():
-	message ="Service is UP!"
-	return jsonify(message),200
+	return "Serivice is up",200
 
-
-@app.route('/extractFeatures',methods=['POST'])
+@application.route('/extractFeatures',methods=['POST'])
 def extractFeatures():
 	params = request.get_json()
 	image = params['image']
@@ -25,6 +25,6 @@ def extractFeatures():
 	return jsonify(features),200
 
 
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    
+	application.run(host="0.0.0.0", port=80, debug = True)
