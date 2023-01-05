@@ -7,4 +7,4 @@
 
 
 <img src="https://github.com/pilarcode/demo-receipt-ocr/blob/main/portada_readme.png" name="ejemplo recibo con las entidades extraidas con Pytesseract" style="
- display:block; margin-left:200px;margin-right:auto;width: 50%"/>
+ display:block; width: 50%"/>
