@@ -5,8 +5,7 @@
 
 2. También contiene un servicio web con [Flask](https://flask.palletsprojects.com/en/2.2.x/) que recibe una imagen codificada en base64 y realiza la extracción de caractéristicas de la imagen del recibo (precio item,descripción item, total). Ese servicio llama a servicios de AWS para la extracción de entidades y utiliza expresiones regulares en el prepocesamiento.
 
-
-## Caso de uso: Registros de los gastos del usuario para predecir sus gastos y sugerirle compras de forma automática.
+## Notes
 
 1. Explorar un servicio para el reconocimiento de texto en imágenes ( open source) como alternativa al que ya se encuentra disponible en la plataforma de Aws que es de coste.
 2. Explorar los datasets de facturas o recibos disponibles en el estado del arte para utilizarlo en nuestro caso de uso.
