@@ -6,4 +6,4 @@
 
 
 <summary>Example 😊</summary>
-<img src="(https://github.com/pilarcode/demo-receipt-ocr/blob/main/portada_readme.png" name="ejemplo recibo con las entidades extraidas con Pytesseract">
+<img src="https://github.com/pilarcode/demo-receipt-ocr/blob/main/portada_readme.png" name="ejemplo recibo con las entidades extraidas con Pytesseract"/>
