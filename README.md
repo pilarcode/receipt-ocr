@@ -4,4 +4,7 @@
 
 2. También contiene un servicio web con [Flask](https://flask.palletsprojects.com/en/2.2.x/) que recibe una imagen codificada en base64 y realiza la extracción de caractéristicas de la imagen del recibo (precio item,descripción item, total). Ese servicio llama a servicios de AWS para la extracción de entidades y utiliza expresiones regulares en el prepocesamiento.
 
-![ejemplo Pytesseract](https://github.com/pilarcode/demo-receipt-ocr/blob/main/portada_readme.png)
+
+<details>
+   <img src="(https://github.com/pilarcode/demo-receipt-ocr/blob/main/portada_readme.png" name="ejemplo recibo con las entidades extraidas con Pytesseract">
+<details>
